@@ -39,3 +39,7 @@ ligne. Je le sais également ! Sachez aussi qu’il est très simple de distingu
     * rédaction du mail de retour : 2pts
     * organisation du code : 2pts
 Vous disposez de 2 points bonus, la note sera rendue sur 20 !
+
+## 4. LIENS UTILISÉS :
+
+* 1/ SITE POUR FAIRE LE MENU VERTICAL : https://www.frogweb.fr/menu-deroulant-vertical/
