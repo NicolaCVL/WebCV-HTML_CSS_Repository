@@ -1,13 +1,12 @@
 body {
     display: flex;
-    /* justify-content: space-between; */
-    /* flex-wrap: wrap; */
     width: 100%;
     margin: 0;
     background-color: rgb(216, 216, 216);
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 header{
     background:rgb(0, 0, 0);
     font-size: 15px;
@@ -16,26 +15,18 @@ header{
     padding: auto;
 }
 
-#autresbouton{ /* Pour coller les sous menus au bord gauche*/
-    padding-left: 0;
-}
-
 .dropdownmenu{ /*Pour le menu entier*/
     display: block;
     width: 500px;
     align-items: center;
-
-
-    
-
 }
+
 .dropdownmenu ul{ /*Pour les sous menus*/
     margin: auto;
     position: relative;
+    padding-left: 0;
 }
 
-
- 
 .dropdownmenu a,
 .dropdownmenu li{ /*Pour les titres du menu*/
     padding: 10px;
@@ -45,11 +36,13 @@ header{
     list-style-type: none;
     text-decoration: none;
 }
+
 .dropdownmenu li:hover ul {/*Survolage du menu*/
     position: relative;
     top: 36px;
     z-index: 100; 
 }
+
 /* Gestion des couleurs */ 
 .dropdownmenu li { 
     background-color: rgb(0, 0, 0); /* Couleur d'arriere-plan du menu */ 
@@ -83,28 +76,36 @@ a{
     line-height: 25px;
 
 }
+
 li{
     width: auto;
 }
 
 h1{
-    text-align: center;
-}
-.pagedaccueil{
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    margin: auto;
-}
-#profil {
-    padding: 10%;
+    padding-top: 5%;
     text-align: left;
 }
+
+.pagedaccueil{
+    margin-left: 0%;
+
+}
+
+#profil {
+    padding: 0;
+    padding-bottom: 38%;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: left;
+    border: 2px solid black;
+}
+
 #contact{
-    padding: 20px;
+    padding: 4%;
+    padding-right: 5%;
+    padding-left: 5%;
     background-color:rgb(45, 166, 214);
-    border-color: rgb(45, 166, 214);
-    align-items: flex-end;
+    /* align-items: flex-end; */
     text-align: left;
 }
 
@@ -113,23 +114,25 @@ h1{
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    margin-top: 2%;
-    margin-bottom: 5%;
+    margin-top: 10%;
+    margin-bottom: 15%;
     margin-left: 30%;
     margin-right: 30%;
-
 }
+
 #bigpicturefirstpage{
-    display: block;
+    display: flex;
     justify-content: center;
     width: auto;
     height: auto;
 }
+
 #picturecontactpage{
     width: 300px;
     height: 200px;
     text-align: center;
 }
+
 #experienceformation{
     display: flex;
     justify-content: flex-end;
@@ -154,6 +157,7 @@ h1{
     border: 2px solid;
     text-align: left;
 }
+
 #competence{
     width: 500px;
     height: 400px;
@@ -163,29 +167,37 @@ h1{
     border: 2px solid;
     text-align: left;
 }
-#logolinkedin{
+
+.logocontact{
     display: flex;
-    align-content:flex-start;
+    justify-content: space-between
+}
+
+#logolinkedin{
+    margin-left: 35%;
 
 }
 
 #logogmail{
-    display: block;
-    align-content:flex-end;
+    margin-right: 35%;
+    margin-bottom: 40%;
 }
 
 #logocompetence{
 
 }
-#logo_htmlcss{
 
+#logo_htmlcss{
 }
+
 #logo_java{
 
 }
+
 #logo_python{
 
 }
+
 #logo_github{
 
 }
@@ -206,18 +218,18 @@ h1{
     width: 500px;
     height: 200px;
     padding: 10px;
-    border-color: black;
+    border-color: red;
     border: 2px solid;
     text-align: left;
 }
-
-
 
 .formulaire{
     margin: auto;
     text-align: center;
 }
+
 .buttonbig{
+
 }
 
 #remerciement{
