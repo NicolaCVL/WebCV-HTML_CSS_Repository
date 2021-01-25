@@ -43,3 +43,5 @@ Vous disposez de 2 points bonus, la note sera rendue sur 20 !
 ## 4. LIENS UTILISÉS :
 
 * 1/ SITE POUR FAIRE LE MENU VERTICAL : https://www.frogweb.fr/menu-deroulant-vertical/
+* 2/ SITE POUR UTILISATION FLEX : https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-basics
+* 3/ SITE POUR LE MEDIAQUERIES : 
