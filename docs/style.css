@@ -1,4 +1,4 @@
-body {
+body { /*Contenu principal du html*/
     display: flex;
     width: 100%;
     margin: 0;
@@ -8,7 +8,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-header{
+header{ /*En tete de mon html dans mon cas le menu*/
     background:rgb(0, 0, 0);
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -69,7 +69,7 @@ header{
     color: rgb(255, 255, 255); /* Couleur du texte des sous-menu au survol */
 }
 
-a{
+a{ /*Correspond a mes liens et titres de mon menu*/
     display: block;
     width: auto;
     height: 30px;
@@ -78,16 +78,16 @@ a{
 
 }
 
-li{
+li{ /*La largeur de mon menu*/
     width: auto;
 }
 
-h1{
+h1{ /*L'emplacement des titres de paragraphes*/
     padding-top: 5%;
     text-align: left;
 }
 
-.pagedaccueil{
+.pagedaccueil{ /*Bloc entier pour profil et contact, emplacement sur la page et dimension*/
     display: flex;
     align-content: flex-end;
     flex-wrap: wrap;
@@ -95,7 +95,7 @@ h1{
 
 }
 
-#profil {
+#profil { /*Bloc pour le profil l'emplacement du texte, emplacement sur la page*/
     flex-basis: 100%;
     padding-bottom: 50%;
     padding-right: 5%;
@@ -103,7 +103,7 @@ h1{
     text-align: left;
 }
 
-#contact{
+#contact{ /*Bloc pour contact l'emplacement du texte, emplacement sur la page*/
     flex-basis: 100%;
     padding: 3%;
     padding-bottom: 6%;
@@ -111,7 +111,7 @@ h1{
     text-align: left;
 }
 
-#picturefirstpage img{
+#picturefirstpage img{ /*Image au dessus de menu, avoir une image ronde, et son emplacement*/
     display: block;
     height: 200px;
     width: 200px;
@@ -122,13 +122,13 @@ h1{
     margin-right: 30%;
 }
 
-#picturecontactpage{
+#picturecontactpage{ /**/
     width: 300px;
     height: 200px;
     text-align: center;
 }
 
-#experienceformation{
+#experienceformation{ /*Bloc entier pour le bloc experience et formation emplacement sur la page et dimension*/
     display: flex;
     flex-wrap: wrap;
     flex-basis: 40%;
@@ -136,21 +136,21 @@ h1{
 
 }
 
-#experience{
+#experience{ /*Bloc pour l'experience l'emplacement du texte, emplacement sur la page*/
     width: auto;
     height: auto;
     padding: 10px;
     text-align: left;
 }
 
-#formation{
+#formation{ /*Bloc pour formation l'emplacement du texte, emplacement sur la page*/
     width: auto;
     height: auto;
     padding: 10px;
     text-align: left;
 }
 
-#competence{
+#competence{ /*Bloc pour les competences l'emplacement du texte, emplacement sur la page*/
     width: 500px;
     height: 400px;
     margin: auto;
@@ -158,56 +158,53 @@ h1{
     text-align: left;
 }
 
-.logocontact{
+.logocontact{ /*Bloc entier pour les logos en dessous du menu*/
     display: flex;
     justify-content: space-between
 }
 
-#logolinkedin{
+#logolinkedin{ /*Bloc pour le logo linkedin, emplacement comparer au logo gmail*/
     margin-left: 35%;
 
 }
 
-#logogmail{
+#logogmail{ /*Bloc pour le logo gmail*/
     margin-right: 35%;
     margin-bottom: 40%;
 }
 
-#competence{
-
-}
-#logocompetence{
+#logocompetence{ /*Bloc entier pour les differents logo leurs emplacements et dimension sur la page*/
 
 }
 
-#logo_htmlcss{
+#logo_htmlcss{ /*Bloc pour le logo HTML CSS son emplacement et dimension sur la page*/
 }
 
-#logo_java{
-
-}
-
-#logo_python{
+#logo_java{ /*Bloc pour le logo JAVA son emplacement et dimension sur la page*/
 
 }
 
-#logo_github{
+#logo_python{ /*Bloc pour le logo PYTHON son emplacement et dimension sur la page*/
 
 }
 
-#langue{
+#logo_github{ /*Bloc pour le logo GITHUB son emplacement et dimension sur la page*/
 
 }
 
-#centredinteret{
+#langue{ /**/
 
 }
 
-.infoperso{
+#centredinteret{ /**/
+
+}
+
+.infoperso{ /**/
     margin:auto;
 }
 
-#descriptif{
+#descriptif{ /**/
     width: 500px;
     height: 200px;
     padding: 10px;
@@ -216,15 +213,15 @@ h1{
     text-align: left;
 }
 
-.formulaire{
+.formulaire{ /*L'emplacement du formulaire*/
     margin: auto;
     text-align: center;
 }
 
-.buttonbig{
+.buttonbig{ /**/
 
 }
 
-#remerciement{
+#remerciement{ /*Bloc pour les remerciements, emplacements sur la page et dimension*/
 
 }
