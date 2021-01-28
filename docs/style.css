@@ -2,7 +2,8 @@ body {
     display: flex;
     width: 100%;
     margin: 0;
-    background-color: rgb(216, 216, 216);
+    background-image: url(https://img.freepik.com/vecteurs-libre/texture-elegante-fond-blanc_23-2148438405.jpg?size=626&ext=jpg);
+    background-size: cover no-repeat;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -87,25 +88,26 @@ h1{
 }
 
 .pagedaccueil{
-    margin-left: 0%;
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    margin-left: 38%;
 
 }
 
 #profil {
-    padding: 0;
-    padding-bottom: 38%;
+    flex-basis: 100%;
+    padding-bottom: 50%;
     padding-right: 5%;
     padding-left: 5%;
     text-align: left;
-    border: 2px solid black;
 }
 
 #contact{
-    padding: 4%;
-    padding-right: 5%;
-    padding-left: 5%;
+    flex-basis: 100%;
+    padding: 3%;
+    padding-bottom: 6%;
     background-color:rgb(45, 166, 214);
-    /* align-items: flex-end; */
     text-align: left;
 }
 
@@ -120,13 +122,6 @@ h1{
     margin-right: 30%;
 }
 
-#bigpicturefirstpage{
-    display: flex;
-    justify-content: center;
-    width: auto;
-    height: auto;
-}
-
 #picturecontactpage{
     width: 300px;
     height: 200px;
@@ -135,26 +130,23 @@ h1{
 
 #experienceformation{
     display: flex;
-    justify-content: flex-end;
     flex-wrap: wrap;
+    flex-basis: 40%;
+    margin-left: 38%;
+
 }
 
 #experience{
-
-    width: 1000px;
-    height: 500px;
+    width: auto;
+    height: auto;
     padding: 10px;
-    border-color: black;
-    border: 2px solid;
     text-align: left;
 }
 
 #formation{
-    width: 1000px;
-    height: 500px;
+    width: auto;
+    height: auto;
     padding: 10px;
-    border-color: black;
-    border: 2px solid;
     text-align: left;
 }
 
@@ -163,8 +155,6 @@ h1{
     height: 400px;
     margin: auto;
     padding: 10px;
-    border-color: black;
-    border: 2px solid;
     text-align: left;
 }
 
@@ -183,6 +173,9 @@ h1{
     margin-bottom: 40%;
 }
 
+#competence{
+
+}
 #logocompetence{
 
 }
