@@ -3,7 +3,7 @@ body { /*Contenu principal du html*/
     width: 100%;
     margin: 0;
     background-image: url(https://img.freepik.com/vecteurs-libre/texture-elegante-fond-blanc_23-2148438405.jpg?size=626&ext=jpg);
-    background-size: cover no-repeat;
+    background-size: cover;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -13,7 +13,6 @@ header{ /*En tete de mon html dans mon cas le menu*/
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-    padding: auto;
 }
 
 .dropdownmenu{ /*Pour le menu entier*/
@@ -221,13 +220,54 @@ h1{ /*L'emplacement des titres de paragraphes*/
     border: 2px solid;
     text-align: left;
 }
-
-.formulaire{ /*L'emplacement du formulaire*/
-    margin: auto;
-    text-align: center;
+#picturecontactpage img{
+    border-radius: 50%;
 }
 
+.navigate{/*Bloc de type classe pour gerer l'ensemble du formulaire et photo*/
+    display: flex;
+    flex-basis: 50%;
+    margin-left: 15%;
+
+}
 
 #remerciement{ /*Bloc pour les remerciements, emplacements sur la page et dimension*/
+    display: block;
+    align-content: center;
+    margin-left: 25%;
+    padding: 5%;
+}
 
+input[type=text], select {
+    width: auto;
+    padding: 10px 20px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: auto;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 25px;
+    margin: 10px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.form-control{
+    width: auto;
+    padding: 10px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
