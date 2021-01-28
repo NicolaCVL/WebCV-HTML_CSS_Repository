@@ -111,6 +111,9 @@ h1{ /*L'emplacement des titres de paragraphes*/
     text-align: left;
 }
 
+/* #signature{
+    right: 100%;
+} */
 #picturefirstpage img{ /*Image au dessus de menu, avoir une image ronde, et son emplacement*/
     display: block;
     height: 200px;
@@ -150,14 +153,6 @@ h1{ /*L'emplacement des titres de paragraphes*/
     text-align: left;
 }
 
-#competence{ /*Bloc pour les competences l'emplacement du texte, emplacement sur la page*/
-    width: 500px;
-    height: 400px;
-    margin: auto;
-    padding: 10px;
-    text-align: left;
-}
-
 .logocontact{ /*Bloc entier pour les logos en dessous du menu*/
     display: flex;
     justify-content: space-between
@@ -173,31 +168,45 @@ h1{ /*L'emplacement des titres de paragraphes*/
     margin-bottom: 40%;
 }
 
+#competence{ /*Bloc pour les competences l'emplacement du texte, emplacement sur la page*/
+    margin: 5%;
+    padding-left: 20%;
+    padding-right: 30%;
+    padding-bottom: 5%;
+    text-align: left;
+}
+
 #logocompetence{ /*Bloc entier pour les differents logo leurs emplacements et dimension sur la page*/
 
 }
 
 #logo_htmlcss{ /*Bloc pour le logo HTML CSS son emplacement et dimension sur la page*/
+    padding-left: 100%;
 }
 
 #logo_java{ /*Bloc pour le logo JAVA son emplacement et dimension sur la page*/
-
+    margin-right: 75%;
 }
 
 #logo_python{ /*Bloc pour le logo PYTHON son emplacement et dimension sur la page*/
+    padding-left: 100%;
 
 }
 
 #logo_github{ /*Bloc pour le logo GITHUB son emplacement et dimension sur la page*/
-
+    margin-right: 75%;
 }
 
 #langue{ /**/
-
+    padding-top: 15%;
+    text-align: left;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 #centredinteret{ /**/
-
+    padding-top: 5%;
+    text-align: left;
 }
 
 .infoperso{ /**/
@@ -218,9 +227,6 @@ h1{ /*L'emplacement des titres de paragraphes*/
     text-align: center;
 }
 
-.buttonbig{ /**/
-
-}
 
 #remerciement{ /*Bloc pour les remerciements, emplacements sur la page et dimension*/
 

@@ -42,6 +42,12 @@ Vous disposez de 2 points bonus, la note sera rendue sur 20 !
 
 ## 4. LIENS UTILISÉS :
 
-* 1/ SITE POUR FAIRE LE MENU VERTICAL : https://www.frogweb.fr/menu-deroulant-vertical/
-* 2/ SITE POUR UTILISATION FLEX : https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-basics
-* 3/ SITE POUR LE MEDIAQUERIES : 
+* 1/ MODELE CV : https://www.ahasessionsdailynews.org/x/2020/11/best-resume-cv-vcard-templates-free-premium-freshdesignweb-template-simple-for-students-692x385.jpg
+
+* 2/ SITE POUR FAIRE LE MENU VERTICAL : https://www.frogweb.fr/menu-deroulant-vertical/
+
+* 3/ SITE POUR UTILISATION FLEX : https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-basics
+
+* 4/ SITE POUR LE MEDIAQUERIES : https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1607616-utilisez-le-responsive-design-avec-les-media-queries
+
+* 5/ LIEN VERS MON SITE SOUS GITHUB : https://nicolacvl.github.io/WebCV-HTML_CSS_Repository/
