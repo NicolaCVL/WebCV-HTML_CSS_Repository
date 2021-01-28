@@ -196,32 +196,29 @@ h1{ /*L'emplacement des titres de paragraphes*/
     margin-right: 75%;
 }
 
-#langue{ /**/
+#langue{
     padding-top: 15%;
     text-align: left;
     list-style-type: none;
     text-decoration: none;
 }
 
-#centredinteret{ /**/
+#centredinteret{
     padding-top: 5%;
     text-align: left;
 }
 
-.infoperso{ /**/
+.infoperso{
     margin:auto;
 }
 
-#descriptif{ /**/
+#descriptif{
     width: 500px;
     height: 200px;
     padding: 10px;
     border-color: red;
     border: 2px solid;
     text-align: left;
-}
-#picturecontactpage img{
-    border-radius: 50%;
 }
 
 .navigate{/*Bloc de type classe pour gerer l'ensemble du formulaire et photo*/
@@ -238,7 +235,7 @@ h1{ /*L'emplacement des titres de paragraphes*/
     padding: 5%;
 }
 
-input[type=text], select {
+input[type=text], select { /*Gestion du formulaire pour l'input texte, taille, background*/
     width: auto;
     padding: 10px 20px;
     margin: 2px 0;
@@ -248,7 +245,7 @@ input[type=text], select {
     box-sizing: border-box;
 }
   
-input[type=submit] {
+input[type=submit] { /*Gestion de la partir submit du formulaire*/
     width: auto;
     background-color: #4CAF50;
     color: white;
@@ -259,10 +256,10 @@ input[type=submit] {
     cursor: pointer;
 }
   
-input[type=submit]:hover {
+input[type=submit]:hover { /*Couleur de fond du submit*/
     background-color: #45a049;
 }
-.form-control{
+.form-control{ /*Gestion du formulaire message taille, background*/
     width: auto;
     padding: 10px 20px;
     margin: 5px 0;
